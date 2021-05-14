@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    max-width: 634px;
+    padding-right: 67px;
+    padding-left: 67px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 822px;
+    padding-right: 229px;
+    padding-left: 229px;
+  }
+}
