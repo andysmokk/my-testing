@@ -2,6 +2,14 @@ body {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -30,4 +38,9 @@ body {
     padding-right: 229px;
     padding-left: 229px;
   }
+}
+
+.qqq:not(:last-child) {
+  display: block;
+  margin-bottom: 10px;
 }
